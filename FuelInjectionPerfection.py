@@ -20,6 +20,7 @@ def nn(n):
             c += 1
     return c
 def solution(n):
+    n = int(n)
     if np(n) > nn(n):
         return nn(n)
     else:
